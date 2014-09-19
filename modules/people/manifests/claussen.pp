@@ -16,7 +16,7 @@ class people::claussen {
     source  => 'claussen/dotfiles',
     require => File[$my]
   }
-}
+
 include omnigraffle::pro
 include omnifocus
 include iterm2::stable
@@ -36,4 +36,5 @@ include projects::all
 
 class { 'vlc': 
   version => '2.1.4'
+}
 }
