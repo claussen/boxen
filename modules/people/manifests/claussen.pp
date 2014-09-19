@@ -19,4 +19,6 @@ class people::claussen {
 }
 include omnigraffle::pro
 include omnifocus
+include iterm2::stable
+include dropbox
 include projects::all
