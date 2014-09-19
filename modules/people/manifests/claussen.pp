@@ -16,25 +16,25 @@ class people::claussen {
     source  => 'claussen/dotfiles',
     require => File[$my]
   }
+  include boxen::development
+  include omnigraffle::pro
+  include omnifocus
+  include iterm2::stable
+  include dropbox
+  include onepassword
+  include chrome
+  include firefox
+  include flux
+  include evernote
+  include caffeine
+  include skype 
+  include geektool
+  include macvim
+#  include vlc
+  include sizeup
+  include projects::all
 
-include omnigraffle::pro
-include omnifocus
-include iterm2::stable
-include dropbox
-include onepassword
-include chrome
-include firefox
-include flux
-include evernote
-include caffeine
-include skype 
-include geektool
-include macvim
-include vlc
-include sizeup
-include projects::all
-
-class { 'vlc': 
-  version => '2.1.4'
-}
+  class { 'vlc': 
+    version => '2.1.4'
+  }
 }
