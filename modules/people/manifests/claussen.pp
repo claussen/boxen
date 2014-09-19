@@ -34,6 +34,15 @@ class people::claussen {
   include sizeup
   include projects::all
 
+  class { 'vagrant':
+    version => '1.6.5',
+    completion => true,
+  }
+
+  vagrant::plugin { 'vagrant-vmware-fusion':
+    license => 'puppet:///modules/people/claussen/licenses/fusion.lic',
+  }
+
   class { 'vlc': 
     version => '2.1.4'
   }
