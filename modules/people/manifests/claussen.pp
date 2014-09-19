@@ -28,7 +28,7 @@ class people::claussen {
   include evernote
   include caffeine
   include skype 
-  include geektool
+#  include geektool
   include macvim
 #  include vlc
   include sizeup
