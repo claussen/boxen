@@ -32,6 +32,8 @@ class people::claussen {
   include macvim
 #  include vlc
   include sizeup
+  include java
+  include hipchat
   include projects::all
 
   class { 'vagrant':
@@ -41,6 +43,9 @@ class people::claussen {
 
   vagrant::plugin { 'vagrant-vmware-fusion':
     license => 'puppet:///modules/people/claussen/licenses/fusion.lic',
+  }
+  vagrant::plugin { 'vagrant-hostmanager':
+    ensure => installed,
   }
 
   class { 'vlc': 

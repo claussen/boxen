@@ -72,6 +72,8 @@ github "macvim",      "1.0.0"
 github "vlc",         "1.1.0"
 github "sizeup",      "1.0.0"
 github "vagrant",     "3.2.0"
+github "java",        "1.7.0"
+github "hipchat",     "1.1.3"
 # already manually installed, not sure what version# github "vmware_fusion","1.2.0"
 #github "geektool",    "1.0.0", :repo => "claussen/puppet-geektool"
 
