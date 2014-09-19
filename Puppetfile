@@ -71,6 +71,8 @@ github "caffeine",    "1.0.0"
 github "macvim",      "1.0.0"
 github "vlc",         "1.1.0"
 github "sizeup",      "1.0.0"
+github "vagrant",     "3.2.0"
+# already manually installed, not sure what version# github "vmware_fusion","1.2.0"
 #github "geektool",    "1.0.0", :repo => "claussen/puppet-geektool"
 
 # Optional/custom modules. There are tons available at
