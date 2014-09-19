@@ -71,7 +71,7 @@ github "caffeine",    "1.0.0"
 github "macvim",      "1.0.0"
 github "vlc",         "1.1.0"
 github "sizeup",      "1.0.0"
-github "geektool",    "1.0.0", :repo => "bd808/puppet-geektool"
+#github "geektool",    "1.0.0", :repo => "claussen/puppet-geektool"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
